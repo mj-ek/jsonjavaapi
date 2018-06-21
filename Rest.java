@@ -1,4 +1,5 @@
 /**
+
 java is installed at
  /usr/lib/jvm/java-8-oracle/jre/bin/java
 
