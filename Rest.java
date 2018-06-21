@@ -11,9 +11,9 @@ public class Rest {
 
     public static void main(String[] args) throws IOException 
     {
-        // URL url = new URL(" http://106.51.129.9:8080/GenericApp/rest/appInfo/getAppName");
+        // URL url = new URL(" http://apps.karunashraya.org:8080/GenericApp/rest/appInfo/getAppName");
         // URL url = new URL("https://swapi.co/api/people/1/");
-        URL url = new URL("https://106.51.129.9:8080/GenericApp/rest/appInfo/getAppName");
+        URL url = new URL("https://apps.karunashraya.org:8080/GenericApp/rest/appInfo/getAppName");
         /*
 java Rest 
 Exception in thread "main" javax.net.ssl.SSLException: Unrecognized SSL message, plaintext connection?
@@ -31,10 +31,10 @@ Exception in thread "main" javax.net.ssl.SSLException: Unrecognized SSL message,
 	at Rest.main(Rest.java:36)
 
         */
-        URL url = new URL("http://106.51.129.9:8080/GenericApp/rest/appInfo/getAppName");
+        URL url = new URL("http://apps.karunashraya.org:8080/GenericApp/rest/appInfo/getAppName");
         /*
         java Rest 
-Exception in thread "main" java.io.IOException: Server returned HTTP response code: 405 for URL: http://106.51.129.9:8080/GenericApp/rest/appInfo/getAppName
+Exception in thread "main" java.io.IOException: Server returned HTTP response code: 405 for URL: http://apps.karunashraya.org:8080/GenericApp/rest/appInfo/getAppName
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
 	at Rest.main(Rest.java:33)
@@ -68,7 +68,7 @@ Exception in thread "main" java.io.IOException: Server returned HTTP response co
 
 /*
 java Rest 
-Exception in thread "main" java.io.IOException: Server returned HTTP response code: 405 for URL: http://106.51.129.9:8080/GenericApp/rest/appInfo/getAppName
+Exception in thread "main" java.io.IOException: Server returned HTTP response code: 405 for URL: http://apps.karunashraya.org:8080/GenericApp/rest/appInfo/getAppName
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
 	at Rest.main(Rest.java:28)

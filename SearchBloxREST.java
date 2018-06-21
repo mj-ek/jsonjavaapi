@@ -21,6 +21,7 @@ URLConnection connection;
 try {
 url = new URL( "http://localhost:8080/searchblox/api/rest/add" );
 connection = url.openConnection( );
+// Idiot check this connection Object ..
 connection.setDoOutput( true );
 OutputStreamWriter wr = new OutputStreamWriter(connection.getOutputStream(), "UTF-8");
 buffer.append("<?xml version='1.0' encoding='utf-8'?><searchblox licenseid='302C02140D9128DD59B531EEA28B2D35770A28A0653ECA68021479151B41E6042FED8F76E73AFCC02F0CAE33DE37'>");

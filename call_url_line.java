@@ -78,10 +78,10 @@ public class call_url_line
 
 
  BufferedReader br = null;
-String karunashraya_app_link = "http://106.51.129.9:8080/GenericApp/rest/appInfo/getAppName";
-String karunashraya_app_link1 = "http://106.51.129.9:8080/GenericApp/rest/appInfo/getAppName";
+String karunashraya_app_link = "http://apps.karunashraya.org:8080/GenericApp/rest/appInfo/getAppName";
+String karunashraya_app_link1 = "http://apps.karunashraya.org:8080/GenericApp/rest/appInfo/getAppName";
 String news_nib_categories = "http://personal.ekagga.com/GenericAppBeta/generic/api/getNewsCategory?news_language=English&categoryClientUniqId=theNews_uniq_id";
-// String karunashraya_app_link = "http://106.51.129.9:8080/GenericApp/rest/appInfo/getAppName";
+// String karunashraya_app_link = "http://apps.karunashraya.org:8080/GenericApp/rest/appInfo/getAppName";
 String line = null;
 
 /*URL Object needed to tie http or such type file or link or api blunt*/
